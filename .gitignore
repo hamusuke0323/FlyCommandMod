@@ -1,0 +1,29 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+LICENSE_fly-command-mod-forge
+src/generated
+src/test
+logs
+
+# Files from Forge MDK
+forge*changelog.txt
