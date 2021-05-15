@@ -1,0 +1,35 @@
+modLoader="javafml" #mandatory
+loaderVersion="[33,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="CC0-1.0"
+
+[[mods]] #mandatory
+modId="flycommand" #mandatory
+version="1.1" #mandatory
+displayName="FlyCommandMod" #mandatory
+updateJSONURL="https://raw.githubusercontent.com/hamusuke0323/FlyCommandMod/main/update.json" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/flycommandmod" #optional
+credits="Thanks for downloading this Mod!" #optional
+authors="hamusuke2303" #optional
+logoFile="icon.png"
+description='''
+Add /fly command.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[33,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.2]"
+    ordering="NONE"
+    side="BOTH"
