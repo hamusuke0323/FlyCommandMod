@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " X ",
+        "YXY",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:stick",
+            "data": 0
+        },
+        "Y": {
+            "item": "minecraft:elytra",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "flycommand:flying_stick",
+        "data": 0,
+        "count": 1
+    }
+}
