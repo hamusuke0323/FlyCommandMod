@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "flycommand",
+    "name": "FlyCommandMod",
+    "description": "add /fly command.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/flycommandmod",
+    "authorList": [
+      "hamusuke2303"
+    ],
+    "credits": "Thanks for downloading this mod!",
+    "logoFile": "assets/flycommand/icon.png"
+  }
+]
